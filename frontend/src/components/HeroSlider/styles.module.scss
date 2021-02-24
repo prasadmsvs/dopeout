@@ -1,9 +1,11 @@
+@import './../../shared/colors';
+@import './../../shared/fonts';
 .hero-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: #F4EBD0;
+  background-color: $brand-color-5;
   justify-content: center;
-  background-image: linear-gradient(305.07deg, #B68D40 46.02%, #F3E2C3 46.14%);;
+  background-image: linear-gradient(305.07deg, $brand-color-6 46.02%, $brand-color-7 46.14%);;
   grid-column-gap: 50px;
 
   img {
@@ -16,12 +18,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    // background: url(./../../assets/skew-bg.png) no-repeat;
    
     background-size: cover;
     flex-grow: 1;
     .hero-text-main {
-      font-family: 'Ribeye';
+      font-family: $font-family-1;
       font-size: 4rem;
     }
     .hero-text-main-1{
@@ -37,7 +38,7 @@
     }
 
     .hero-text-sub {
-      font-family: 'Reenie Beanie';
+      font-family: $font-family-2;
       font-style: normal;
       font-weight: 500;
       font-size: 2rem;

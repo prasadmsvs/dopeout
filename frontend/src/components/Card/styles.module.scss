@@ -1,13 +1,21 @@
-$color: #F3E2C3;
-$colorDark: darken($color, 10%) transparent;
+@import './../../shared/colors';
+@import './../../shared/fonts';
+$colorDark: darken($brand-color-2, 10%) transparent;
 .card{
-	background: #F3E2C3;
+	background: $brand-color-2;
    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
 	padding: 0.5rem;
 	height: 200px;
 	width: 200px;
    margin: 0px 10px;
-
+   h1{
+      font-family: $font-family-1;
+      margin-bottom: 10px;
+   }
+   p{
+      font-family: $font-family-2;
+      font-size: 1.5rem;
+   }
    .pin{
       height: 32px;
       width:2px;
