@@ -1,0 +1,33 @@
+.grid{
+	display: grid;
+	padding: 2rem 3rem;
+	justify-content: space-around;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-row-gap: 2rem;
+}
+
+.card1{
+	transform:rotate(4deg);
+}
+.card2{
+	transform:rotate(-4deg);
+}
+.card3{
+	transform:rotate(5deg);
+}
+.card4{
+	transform:rotate(-3deg);
+}
+.card5{
+	transform:rotate(2deg);
+}
+
+
+
+
+
+
+
+
+
+

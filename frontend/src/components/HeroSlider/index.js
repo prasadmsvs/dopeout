@@ -1,16 +1,20 @@
 
 import React from 'react'
-import './style.scss';
+import styles from './styles.module.scss';
 import illustration from '../../assets/illustration.svg';
 
 function HeroSlider() {
   return (
-    <section className='hero-container'>
-      <div className="hero-text">
-        <div className='hero-text-main'>
-          Dopeout
-          </div>
-        <div className='hero-text-sub'>
+    <section className={styles['hero-container']}>
+      <div className={styles['hero-text']}>
+
+        <div className={`${styles['hero-text-main']} ${styles['hero-text-main-1']}`}>
+          Dope
+        </div>
+        <div className={`${styles['hero-text-main']} ${styles['hero-text-main-2']}`}>
+          out
+        </div>
+        <div className={styles['hero-text-sub']}>
           Create innovate and share
         </div>
       </div>

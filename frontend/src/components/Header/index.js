@@ -1,13 +1,12 @@
-
 import React from 'react'
-import './style.scss';
+import styles from './styles.module.scss';
 import logo from '../../assets/logo.svg';
 
 function Header() {
   return (
-    <div className='header-container'>
+    <div className={styles['header-container']}>
       <img src={logo} alt="logo"/>
-      <p className='header-text'>Dope out</p>
+      <p className={styles['header-text']}>Dope out</p>
     </div>
   )
 }

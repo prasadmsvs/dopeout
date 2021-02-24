@@ -1,13 +1,14 @@
 .hero-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(2, 1fr);
   background-color: #F4EBD0;
   justify-content: center;
-  background-image: linear-gradient(135deg, #B68D40, #F3E2C3);
+  background-image: linear-gradient(305.07deg, #B68D40 46.02%, #F3E2C3 46.14%);;
   grid-column-gap: 50px;
 
   img {
     width: 100%;
+    height: 30vh;
   }
 
   .hero-text {
@@ -21,14 +22,25 @@
     flex-grow: 1;
     .hero-text-main {
       font-family: 'Ribeye';
-      font-size: 3rem;
+      font-size: 4rem;
+    }
+    .hero-text-main-1{
+      color: #C24003;
+      position: relative;
+      left: -45px;
+    }
+
+    .hero-text-main-2{
+      color: #4E76AB;
+      position: relative;
+      left: 45px;
     }
 
     .hero-text-sub {
       font-family: 'Reenie Beanie';
       font-style: normal;
       font-weight: 500;
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
   }
 }
